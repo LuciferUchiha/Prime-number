@@ -8,7 +8,7 @@
 
 ## About The Project
 
-This Class checks to see if a entered long is a Prime Number and returns a boolean. A Prime Number is a whole number greater than 1 that can not be made by multiplying other whole numbers. The first few prime numbers are: 2, 3, 5, 7, 11, 13, 17, 19 and 23. [Read more on Prime Numbers](https://en.wikipedia.org/wiki/Prime_number)
+This Class checks to see if a entered long is a Prime Number and returns a boolean. It can also return a List of Prime Numbers in a given range. A Prime Number is a whole number greater than 1 that can not be made by multiplying other whole numbers. The first few prime numbers are: 2, 3, 5, 7, 11, 13, 17, 19 and 23. [Read more on Prime Numbers](https://en.wikipedia.org/wiki/Prime_number)
 
 This Class also contains a function that will return all the factors of a given long. "Prime Factorization" is finding which prime numbers multiply together to make the original number. For example the Prime Factors of 12 are 2 × 2 × 3 = 12. [Read more on Prime Factorization](https://en.wikipedia.org/wiki/Integer_factorization#Prime_decomposition)
 
