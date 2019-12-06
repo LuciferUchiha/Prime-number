@@ -29,4 +29,13 @@ public class PrimeNumber {
 		}
 		return factors;
 	}
+	
+	public static List<Long> getAllPrimeNumbersInRange(long start, long end) {
+		List<Long> results = new ArrayList<Long>();
+		for (long number = start; number != end; number++) {
+			if (isPrimeNumber(number))
+				results.add(number);
+		}
+		return results;
+	}
 }
