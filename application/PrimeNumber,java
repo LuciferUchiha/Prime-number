@@ -1,0 +1,32 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PrimeNumber {
+
+	public static boolean isPrimeNumber(long number) {
+		if (number < 2) {
+			return false;
+		}
+		boolean isPrime = true;
+		for (long l = 2; l <= number / 2; l++) {
+			if (number % l == 0) {
+				isPrime = false;
+				break;
+			}
+		}
+		return isPrime;
+	}
+
+	public static List<Long> getPrimeFactors(long number) {
+		List<Long> factors = new ArrayList<Long>();
+		for (long l = 2; l <= number; l++) {
+			while (number % l == 0) {
+				factors.add(l);
+				number /= l;
+			}
+		}
+		return factors;
+	}
+}
